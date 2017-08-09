@@ -21,7 +21,7 @@ function branch(len) {
     line(0, 0,0,-len);
     // moves the origin to the top of the stem
     translate(0,-len);
-    if (len >10){
+    if (len >14){
         //draw left branch
         push();
         rotate(-angle);
