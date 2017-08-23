@@ -1,5 +1,5 @@
 function Bubble(x,y) {
-    this.radius = randomGaussian(20,10);
+    this.radius = randomGaussian(20,7);
     this.mass = PI*this.radius**2;
     this.position = createVector(x,y);
     this.velocity = createVector(0,0);
