@@ -21,13 +21,32 @@ function setup() {
 }
 
 function mouseDragged() {
-   bubbles.push(new Bubble(mouseX,mouseY));
+    // creates new bubble objects when left mouse is dragged
+   var mousepos = createVector(mouseX,mouseY);
     
-    if (bubbles.length > 100 ){
+    if (mouseButton == LEFT){
+        
+        bubbles.push(new Bubble(mouseX,mouseY));
+        
+        if (bubbles.length > 100 ){
         bubbles.shift();
+        }
+           
+    }
+    
+    if (mouseButton == RIGHT){
+        
+        for (var i = bubbles.length -1; i >=0 ; i--){
+            
+            if (mousepos.dist(bubbles[i].position) < bubbles[i].radius) {
+                bubbles.splice(i,1);
+                console.log("delete");
+                console.log(bubbles.length);
+            }
         }
         
     }
+}
     
     
 
