@@ -1,2 +1,10 @@
 # p5.js_sketch
 learning how to use GitHub pages
+
+Current projects:
+
+Fractal tree generator
+https://ejohnstonephd1991.github.io/p5.js_sketch/shifman_p5/
+
+Bubble physics simulator:
+https://ejohnstonephd1991.github.io/p5.js_sketch/shifman_p5-bubbles
