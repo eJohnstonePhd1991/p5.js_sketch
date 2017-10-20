@@ -7,4 +7,6 @@ Fractal tree generator
 https://ejohnstonephd1991.github.io/p5.js_sketch/shifman_p5/
 
 Bubble physics simulator:
-https://ejohnstonephd1991.github.io/p5.js_sketch/shifman_p5-bubbles
+https://ejohnstonephd1991.github.io/p5.js_sketch/shifman_p5%20-%20bubbles/
+
+
