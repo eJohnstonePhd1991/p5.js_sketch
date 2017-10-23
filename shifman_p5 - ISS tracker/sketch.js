@@ -69,14 +69,14 @@ function draw(){
 }
 
 function askIss() {
-    loadJSON('http://api.open-notify.org/iss-now.json',getData, 'jsonp');
+    loadJSON('https://api.wheretheiss.at/v1/satellites/25544',getData);
 
 }
 function getData(data) {
-  var issLat = Number(data.iss_position.latitude);
-    var issLong = Number(data.iss_position.longitude);   
+  var issLat = Number(data.latitude);
+    var issLong = Number(data.longitude);   
     
-    coordBox.html("Lat:" + issLat + " Long:" + issLong);
+    coordBox.html("Lat:" + issLat.toFixed(2) + " Long:" + issLong.toFixed(2));
     
     
     
