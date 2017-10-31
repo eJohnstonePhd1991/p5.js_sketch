@@ -12,4 +12,7 @@ https://ejohnstonephd1991.github.io/p5.js_sketch/shifman_p5%20-%20bubbles/
 ISS location tracker:
 https://ejohnstonephd1991.github.io/p5.js_sketch/shifman_p5%20-%20ISS%20tracker/
 
+Bubble game:
+https://ejohnstonephd1991.github.io/p5.js_sketch/bubble%20game/
+
 
